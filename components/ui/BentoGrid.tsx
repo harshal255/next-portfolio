@@ -67,11 +67,15 @@ export const BentoGridItem = ({
     },
   };
 
-  const handleCopy = () => {
-    console.log("function called");
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+  const handleCopy = async () => {
+    // console.log("function called");
+    try {
+      const text = "harshalskahar389@gmail.com";
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -113,7 +117,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-      
+
 
         <div
           className={cn(

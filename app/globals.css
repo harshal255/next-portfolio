@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    color: white;
+body {
+  color: white;
 }
 
 @layer base {
@@ -70,13 +70,15 @@ body{
   }
 }
 
-/* @layer base {
+@layer base {
   * {
     @apply border-border !scroll-smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   button {
     @apply active:outline-none;
   }
@@ -86,4 +88,4 @@ body{
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
-} */
+}
