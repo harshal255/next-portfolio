@@ -27,7 +27,7 @@ const config = {
     },
     extend: {
       colors: {
-        black: {
+       black: {
           DEFAULT: "#000",
           100: "#000319",
           200: "rgba(17, 25, 40, 0.75)",
@@ -39,9 +39,13 @@ const config = {
           200: "#C1C2D3",
         },
         blue: {
-          "100": "#E4ECFF",
+          100: "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple:{
+          DEFAULT: "#CBACF9",
+          100:"#0b0019",
+          500:"#a855f7"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
