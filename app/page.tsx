@@ -1,4 +1,5 @@
 import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProject from "@/components/RecentProject";
@@ -13,7 +14,8 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Grid />
         <RecentProject />
-        <Clients/>
+        <Clients />
+        <Experience />
       </div>
     </main>
   );
